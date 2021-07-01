@@ -31,9 +31,6 @@ jobs:
       run: yarn install
       env:
         NODE_ENV: production
-    
-    - name: Test unit
-      run: yarn test:unit
 
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
